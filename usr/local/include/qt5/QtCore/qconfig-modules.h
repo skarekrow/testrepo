@@ -1,0 +1,9 @@
+#include <QtCore/modules/qconfig-core.h>
+#include <QtCore/modules/qconfig-dbus.h>
+#include <QtCore/modules/qconfig-gui.h>
+#include <QtCore/modules/qconfig-network.h>
+#include <QtCore/modules/qconfig-widgets.h>
+#include <QtCore/modules/qconfig-opengl.h>
+#include <QtCore/modules/qconfig-quick.h>
+#include <QtCore/modules/qconfig-printsupport.h>
+#include <QtCore/modules/qconfig-webkit.h>

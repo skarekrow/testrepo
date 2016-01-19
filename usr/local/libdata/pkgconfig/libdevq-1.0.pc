@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: libdevq
+Description: Generic device query and monitor interface
+Version: 0.0.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -ldevq

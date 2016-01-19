@@ -1,0 +1,13 @@
+_LICENSE=LGPL21 MPL
+_LICENSE_COMB=multi
+_LICENSE_NAME=Multiple (all of): LGPL21 MPL
+_LICENSE_PERMS=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS=
+_LICENSE_NAME_LGPL21=GNU Lesser General Public License version 2.1
+_LICENSE_PERMS_LGPL21=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS_LGPL21=FSF GPL OSI
+_LICENSE_DISTFILES_LGPL21=cairo-1.14.6.tar.xz
+_LICENSE_NAME_MPL=Mozilla Public License
+_LICENSE_PERMS_MPL=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS_MPL=FSF OSI
+_LICENSE_DISTFILES_MPL=cairo-1.14.6.tar.xz

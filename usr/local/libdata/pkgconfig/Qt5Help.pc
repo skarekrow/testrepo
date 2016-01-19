@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 Help
+Description: Qt Help module
+Version: 5.4.1
+Libs: -lQt5Help 
+Libs.private:  -L/usr/local/lib -lQt5Widgets -lQt5Gui -lQt5Core -lQt5Network -L/usr/local/lib -lQt5Sql -lQt5CLucene -lQt5Core -lGL -pthread 
+Cflags: -I${includedir}/QtHelp -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

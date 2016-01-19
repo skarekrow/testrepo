@@ -1,0 +1,15 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+host_bins=${prefix}/lib/qt5/bin
+qt_config=minimal-config small-config medium-config large-config full-config c++11 shared qpa reduce_exports reduce_relocations clock-gettime clock-monotonic posix_fallocate getaddrinfo ipv6ifname getifaddrs no-jpeg no-png no-gif no-freetype no-harfbuzz no-gui no-widgets system-zlib glib rpath icu concurrent audio-backend release release glib icu
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.4.1
+Libs: -lQt5Core 
+Libs.private:  -L/usr/local/lib -lexecinfo -lz -licui18n -licuuc -licudata -lpcre16 -lm -lgthread-2.0 -pthread -lglib-2.0 -lintl -pthread 
+Cflags: -I${includedir}/QtCore -I${includedir}
+

@@ -1,0 +1,8 @@
+2016-01-19 09:39:11 [root:groupadd] messagebus(556)
+2016-01-19 09:39:11 [root:useradd] messagebus(556):messagebus(556):D-BUS Daemon User:/nonexistent:/usr/sbin/nologin
+2016-01-19 09:39:11 [root:groupadd] _tss(601)
+2016-01-19 09:39:11 [root:useradd] _tss(601):_tss(601):TrouSerS user:/var/empty:/usr/sbin/nologin
+2016-01-19 09:39:13 [root:groupadd] cups(193)
+2016-01-19 09:39:13 [root:useradd] cups(193):cups(193):Cups Owner:/nonexistent:/usr/sbin/nologin
+2016-01-19 09:39:16 [root:groupadd] quasselcore(442)
+2016-01-19 09:39:16 [root:useradd] quasselcore(442):quasselcore(442):Quassel IRC User:/nonexistent:/usr/sbin/nologin

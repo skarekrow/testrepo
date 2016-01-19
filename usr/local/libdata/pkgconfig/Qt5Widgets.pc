@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 Widgets
+Description: Qt Widgets module
+Version: 5.4.1
+Libs: -lQt5Widgets 
+Libs.private:  -L/usr/local/lib -lQt5Gui -lQt5Core -lGL -pthread 
+Cflags: -I${includedir}/QtWidgets -I${includedir}
+Requires: Qt5Core Qt5Gui
+

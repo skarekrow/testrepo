@@ -1,0 +1,58 @@
+Produced by: indexinfo 0.2.3.
+
+File: dir,	Node: Top	This is the top of the INFO tree
+
+  This (the Directory node) gives a menu of major topics.
+  Typing "q" exits, "?" lists all Info commands, "d" returns here,
+  "h" gives a primer for first-timers,
+  "mXXX<Return>" visits the XXX manual, etc.
+
+* Menu:
+
+Software libraries
+* libtasn1: (libtasn1). Library for Abstract Syntax Notation One (ASN.1).
+* GnuTLS: (gnutls).		GNU Transport Layer Security Library.
+* GnuTLS-Guile: (gnutls-guile).		GNU Transport Layer Security Library. Guile bindings.
+* libidn: (libidn).	Internationalized string processing library.
+
+Encryption
+* Nettle: (nettle).             A low-level cryptographic library.
+
+GNU Utilities
+* pinentry: (pinentry).    Securely ask for a passphrase or PIN.
+* gpg2: (gnupg).           OpenPGP encryption and signing tool.
+* gpgsm: (gnupg).          S/MIME encryption and signing tool.
+* gpg-agent: (gnupg).      The secret key daemon.
+* dirmngr: (gnupg).        X.509 CRL and OCSP server.
+* dirmngr-client: (gnupg). X.509 CRL and OCSP client.
+
+Libraries
+* libgpg-error: (gnupg).   Error codes and common code for GnuPG.
+
+GNU libraries
+* gmp: (gmp).                   GNU Multiple Precision Arithmetic Library.
+* libksba: (ksba).              An X.509 Library.
+
+System Administration
+* certtool: (gnutls)Invoking certtool.	Manipulate certificates and keys.
+* gnutls-serv: (gnutls)Invoking gnutls-serv.	GnuTLS test server.
+* gnutls-cli: (gnutls)Invoking gnutls-cli.	GnuTLS test client.
+* gnutls-cli-debug: (gnutls)Invoking gnutls-cli-debug.	GnuTLS debug client.
+* psktool: (gnutls)Invoking psktool.	Simple TLS-Pre-Shared-Keys manager.
+* srptool: (gnutls)Invoking srptool.	Simple SRP password tool.
+
+GNU Libraries
+* libgcrypt: (gcrypt).  Cryptographic function library.
+* Assuan: (assuan).        An IPC library for non-persistent servers.
+
+Development
+* libffi: (libffi).             Portable foreign-function interface library.
+
+C++ libraries
+* autosprintf: (autosprintf).   Support for printf format strings in C++.
+
+Localization
+* idn: (libidn)Invoking idn.	Internationalized Domain Name (IDN) string conversion.
+
+Emacs
+* IDN Library: (libidn)Emacs API.	Emacs API for IDN functions.

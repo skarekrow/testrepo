@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 Quick
+Description: Qt Quick module
+Version: 5.4.1
+Libs: -lQt5Quick 
+Libs.private:  -L/usr/local/lib -lQt5Qml -lQt5Gui -lQt5Network -lQt5Core -lQt5Network -L/usr/local/lib -lQt5Core -lGL -pthread 
+Cflags: -I${includedir}/QtQuick -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Qml
+

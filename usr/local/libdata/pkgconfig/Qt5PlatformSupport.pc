@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 PlatformSupport
+Description: Qt PlatformSupport module
+Version: 5.4.1
+Libs: -lQt5PlatformSupport 
+Libs.private:  -L/usr/local/lib -lfontconfig -lfreetype -lQt5Gui -lQt5DBus -lQt5Core -lgthread-2.0 -pthread -lglib-2.0 -lintl -lXrender -lXext -lX11 -lm -lEGL -lGL -pthread 
+Cflags: -I${includedir}/QtPlatformSupport -I${includedir}
+Requires: Qt5Core Qt5Gui
+

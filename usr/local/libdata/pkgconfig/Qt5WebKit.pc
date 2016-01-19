@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 WebKit
+Description: Qt WebKit module
+Version: 5.4.1
+Libs: -lQt5WebKit 
+Libs.private: -L/usr/local/lib -lQt5Gui -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Network -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Core -L/usr/local/lib -Wl,-whole-archive -lWebKit1 -Wl,-no-whole-archive -L/wrkdirs/usr/ports/www/webkit-qt5/work/.build/Source/WebKit/release -Wl,-whole-archive -lWebKit2 -Wl,-no-whole-archive -L/wrkdirs/usr/ports/www/webkit-qt5/work/.build/Source/WebKit2/release -Wl,-whole-archive -lWebCore -Wl,-no-whole-archive -L/wrkdirs/usr/ports/www/webkit-qt5/work/.build/Source/WebCore/release -lz -lXrender -lXcomposite -lXrender -ljpeg -lpng -lwebp -Wl,-whole-archive -lANGLE -Wl,-no-whole-archive -L/wrkdirs/usr/ports/www/webkit-qt5/work/.build/Source/ThirdParty/ANGLE/release -Wl,-whole-archive -lleveldb -Wl,-no-whole-archive -L/wrkdirs/usr/ports/www/webkit-qt5/work/.build/Source/ThirdParty/leveldb/release -Wl,-whole-archive -lJavaScriptCore -Wl,-no-whole-archive -L/wrkdirs/usr/ports/www/webkit-qt5/work/.build/Source/JavaScriptCore/release -Wl,-whole-archive -lWTF -Wl,-no-whole-archive -L/wrkdirs/usr/ports/www/webkit-qt5/work/.build/Source/WTF/release -lXext -lX11 -lm -lX11 -lxslt -lz -lm -lxml2 -lxml2 -lglib-2.0 -lintl -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lintl -lxml2 -lgstapp-0.10 -lgstbase-0.10 -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lintl -lxml2 -lgstbase-0.10 -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lintl -lxml2 -lgstinterfaces-0.10 -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lintl -lxml2 -lgstpbutils-0.10 -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lintl -lxml2 -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lintl -lxml2 -lgstvideo-0.10 -lgstbase-0.10 -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lintl -lxml2 -lsqlite3 -licui18n -licuuc -licudata -lQt5Quick -L/usr/local/lib -lQt5Qml -L/usr/local/lib -lQt5Network -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Gui -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Network -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Qml -L/usr/local/lib -lQt5Network -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Network -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Gui -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Sql -L/usr/local/lib -lQt5Core -L/usr/local/lib -lQt5Core -L/usr/local/lib -lGL -pthread 
+Cflags: -I${includedir}/QtWebKit -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Network
+

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Qt 5 Designer
+GenericName=Qt 5 graphical user interface designer
+Comment=Qt 5 graphical user interface designer
+Icon=/usr/local/share/pixmaps/designer-qt5.png
+Exec=/usr/local/lib/qt5/bin/designer
+Categories=Development;Qt;
+StartupNotify=true

@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 XmlPatterns
+Description: Qt XmlPatterns module
+Version: 5.4.1
+Libs: -lQt5XmlPatterns 
+Libs.private:  -L/usr/local/lib -lQt5Network -lQt5Core  -pthread 
+Cflags: -I${includedir}/QtXmlPatterns -I${includedir}
+Requires: Qt5Core Qt5Network
+

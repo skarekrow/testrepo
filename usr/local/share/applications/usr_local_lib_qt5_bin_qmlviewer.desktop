@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Qt 5 QML viewer
+GenericName=Qt 4-compatible declarative UI framework
+Comment=Qt 4-compatible declarative UI framework
+Icon=/usr/local/share/pixmaps/qt5logo.png
+Exec=/usr/local/lib/qt5/bin/qmlviewer
+Categories=Development;Qt;
+StartupNotify=true

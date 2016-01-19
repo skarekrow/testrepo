@@ -1,0 +1,13 @@
+_LICENSE=BSD2CLAUSE BSD3CLAUSE
+_LICENSE_COMB=multi
+_LICENSE_NAME=Multiple (all of): BSD2CLAUSE BSD3CLAUSE
+_LICENSE_PERMS=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS=
+_LICENSE_NAME_BSD2CLAUSE=BSD 2-clause Simplified License
+_LICENSE_PERMS_BSD2CLAUSE=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS_BSD2CLAUSE=FSF OSI COPYFREE
+_LICENSE_DISTFILES_BSD2CLAUSE=orc-0.4.24.tar.xz
+_LICENSE_NAME_BSD3CLAUSE=BSD 3-clause New or Revised License
+_LICENSE_PERMS_BSD3CLAUSE=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS_BSD3CLAUSE=FSF OSI COPYFREE
+_LICENSE_DISTFILES_BSD3CLAUSE=orc-0.4.24.tar.xz

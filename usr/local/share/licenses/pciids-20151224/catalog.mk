@@ -1,0 +1,17 @@
+_LICENSE=BSD3CLAUSE GPLv2 GPLv3
+_LICENSE_COMB=dual
+_LICENSE_NAME=Dual (any of): BSD3CLAUSE GPLv2 GPLv3
+_LICENSE_PERMS=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS=
+_LICENSE_NAME_BSD3CLAUSE=BSD 3-clause New or Revised License
+_LICENSE_PERMS_BSD3CLAUSE=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS_BSD3CLAUSE=FSF OSI COPYFREE
+_LICENSE_DISTFILES_BSD3CLAUSE=pciids-20151224.tar.xz
+_LICENSE_NAME_GPLv2=GNU General Public License version 2
+_LICENSE_PERMS_GPLv2=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS_GPLv2=FSF GPL OSI
+_LICENSE_DISTFILES_GPLv2=pciids-20151224.tar.xz
+_LICENSE_NAME_GPLv3=GNU General Public License version 3
+_LICENSE_PERMS_GPLv3=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS_GPLv3=FSF GPL OSI
+_LICENSE_DISTFILES_GPLv3=pciids-20151224.tar.xz

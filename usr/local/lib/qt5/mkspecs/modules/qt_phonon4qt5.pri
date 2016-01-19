@@ -1,0 +1,13 @@
+QT.phonon4qt5.VERSION = 4.8.3
+QT.phonon4qt5.MAJOR_VERSION = 4
+QT.phonon4qt5.MINOR_VERSION = 8
+QT.phonon4qt5.PATCH_VERSION = 3
+QT.phonon4qt5.name = phonon4qt5
+QT.phonon4qt5.bins =
+QT.phonon4qt5.includes = /usr/local/include/phonon4qt5
+QT.phonon4qt5.private_includes =
+QT.phonon4qt5.sources =
+QT.phonon4qt5.libs = /usr/local/lib
+QT.phonon4qt5.plugins = /usr/local/lib/qt5/plugins
+QT.phonon4qt5.imports = /usr/local/lib/qt5/imports
+QT.phonon4qt5.depends = core widgets

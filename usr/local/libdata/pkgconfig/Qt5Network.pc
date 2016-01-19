@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt5
+
+
+Name: Qt5 Network
+Description: Qt Network module
+Version: 5.4.1
+Libs: -lQt5Network 
+Libs.private:  -L/usr/local/lib -lQt5Core -lz -pthread 
+Cflags: -I${includedir}/QtNetwork -I${includedir}
+Requires: Qt5Core
+

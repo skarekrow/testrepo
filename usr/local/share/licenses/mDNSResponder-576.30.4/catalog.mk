@@ -1,0 +1,13 @@
+_LICENSE=APACHE20 BSD3CLAUSE
+_LICENSE_COMB=dual
+_LICENSE_NAME=Dual (any of): APACHE20 BSD3CLAUSE
+_LICENSE_PERMS=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS=
+_LICENSE_NAME_APACHE20=Apache License 2.0
+_LICENSE_PERMS_APACHE20=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS_APACHE20=FSF OSI
+_LICENSE_DISTFILES_APACHE20=mDNSResponder-576.30.4.tar.gz
+_LICENSE_NAME_BSD3CLAUSE=BSD 3-clause New or Revised License
+_LICENSE_PERMS_BSD3CLAUSE=dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
+_LICENSE_GROUPS_BSD3CLAUSE=FSF OSI COPYFREE
+_LICENSE_DISTFILES_BSD3CLAUSE=mDNSResponder-576.30.4.tar.gz

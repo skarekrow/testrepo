@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Qt 5 Assistant
+GenericName=Qt 5 documentation browser
+Comment=Qt 5 documentation browser
+Icon=/usr/local/share/pixmaps/assistant-qt5.png
+Exec=/usr/local/lib/qt5/bin/assistant
+Categories=Development;Qt;
+StartupNotify=true

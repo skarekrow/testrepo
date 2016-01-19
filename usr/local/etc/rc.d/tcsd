@@ -1,0 +1,38 @@
+#!/bin/sh
+
+# $FreeBSD: branches/2016Q1/security/trousers/files/tcsd.in 361401 2014-07-09 18:51:39Z bdrewery $
+#
+# PROVIDE: tcsd
+# REQUIRE: SERVERS tpmd
+# BEFORE:  named hastd kerberos
+# KEYWORD: shutdown
+#
+# Add the following lines to /etc/rc.conf.local or /etc/rc.conf
+# to enable this service:
+#
+# tcsd_enable (bool): Set to NO by default.
+#                     Set it to YES to enable tcsd.
+
+. /etc/rc.subr
+
+name=tcsd
+rcvar=tcsd_enable
+command="/usr/local/sbin/${name}"
+start_precmd="tcsd_precmd"
+required_files="/usr/local/etc/${name}.conf"
+
+tcsd_precmd()
+{
+	/usr/bin/install -d -m 0700 -o _tss -g _tss \
+		/var/run/tpm /var/run/ima /usr/local/var/lib/tpm
+	/usr/sbin/chown _tss:_tss \
+		/usr/local/etc/tcsd.conf
+	/bin/chmod 0600 \
+		/usr/local/etc/tcsd.conf
+}
+
+load_rc_config $name
+
+: ${tcsd_enable:="NO"}
+
+run_rc_command "$1"

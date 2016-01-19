@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=
+libdir=/usr/local/lib
+includedir=/usr/local/include/phonon4qt5
+buildsystemdir=/usr/local/share/phonon4qt5/buildsystem/
+
+Name: Phonon4Qt5
+Description: Phonon library needed to build applications
+Version: 4.8.3
+Requires: Qt5Core Qt5Gui Qt5DBus
+Libs: -L${libdir} -lphonon4qt5
+Cflags: -I${includedir}
